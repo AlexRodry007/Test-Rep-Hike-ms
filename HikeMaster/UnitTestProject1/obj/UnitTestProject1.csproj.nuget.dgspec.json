@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\HikeMaster\\UnitTestProject1\\UnitTestProject1.csproj": {}
+    "D:\\source\\TestRepos1\\HikeMaster\\UnitTestProject1\\UnitTestProject1.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\HikeMaster\\HikeMaster\\HikeMaster.csproj": {
+    "D:\\source\\TestRepos1\\HikeMaster\\HikeMaster\\HikeMaster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\HikeMaster\\HikeMaster\\HikeMaster.csproj",
+        "projectUniqueName": "D:\\source\\TestRepos1\\HikeMaster\\HikeMaster\\HikeMaster.csproj",
         "projectName": "HikeMaster",
-        "projectPath": "D:\\source\\repos\\HikeMaster\\HikeMaster\\HikeMaster.csproj",
+        "projectPath": "D:\\source\\TestRepos1\\HikeMaster\\HikeMaster\\HikeMaster.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\HikeMaster\\HikeMaster\\obj\\",
+        "outputPath": "D:\\source\\TestRepos1\\HikeMaster\\HikeMaster\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -31,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -57,18 +59,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\source\\repos\\HikeMaster\\UnitTestProject1\\UnitTestProject1.csproj": {
+    "D:\\source\\TestRepos1\\HikeMaster\\UnitTestProject1\\UnitTestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\HikeMaster\\UnitTestProject1\\UnitTestProject1.csproj",
+        "projectUniqueName": "D:\\source\\TestRepos1\\HikeMaster\\UnitTestProject1\\UnitTestProject1.csproj",
         "projectName": "UnitTestProject1",
-        "projectPath": "D:\\source\\repos\\HikeMaster\\UnitTestProject1\\UnitTestProject1.csproj",
+        "projectPath": "D:\\source\\TestRepos1\\HikeMaster\\UnitTestProject1\\UnitTestProject1.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\HikeMaster\\UnitTestProject1\\obj\\",
+        "outputPath": "D:\\source\\TestRepos1\\HikeMaster\\UnitTestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -88,9 +90,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\source\\repos\\HikeMaster\\HikeMaster\\HikeMaster.csproj": {
-                "projectPath": "D:\\source\\repos\\HikeMaster\\HikeMaster\\HikeMaster.csproj"
+              "D:\\source\\TestRepos1\\HikeMaster\\HikeMaster\\HikeMaster.csproj": {
+                "projectPath": "D:\\source\\TestRepos1\\HikeMaster\\HikeMaster\\HikeMaster.csproj"
               }
             }
           }
@@ -103,6 +106,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -136,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
