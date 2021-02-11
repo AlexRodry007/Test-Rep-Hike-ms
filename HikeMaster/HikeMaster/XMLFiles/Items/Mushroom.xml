@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<item>
+  <name>Mushroom</name>
+  <description>Brown vegetables</description>
+  <id>0</id>
+  <mass>1</mass>
+  <volume>1</volume>
+  <uses>
+    <use>
+      <name>Eat the mushrooms</name>
+      <Consumable>1</Consumable>
+        <netcc>5<nrxcc>2<ecc>2</ecc></nrxcc></netcc>
+    </use>
+  </uses>
+  <passiveUses>
+    <passiveUse>
+      <name>arrow</name>
+      <level>2</level>
+    </passiveUse>
+  </passiveUses>
+</item>

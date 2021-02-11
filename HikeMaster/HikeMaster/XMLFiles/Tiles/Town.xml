@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tile>
+  <name>Forest</name>
+  <description>Nice and peacefull forest</description>
+  <safety>100</safety>
+  <id>0</id>
+  <length>0</length>
+  <safeEvents>
+    <se>
+      <name>Enter the town</name>
+      <choices>
+        <sc>
+          <name>Enter</name>
+          <description>Entered the town</description>
+        </sc>
+      </choices>
+    </se>
+  </safeEvents>
+  <dangerousEvents>
+    <de>
+      <name>Enter the town</name>
+      <choices>
+        <sc>
+          <name>Enter</name>
+          <description>Entered the town</description>
+        </sc>
+      </choices>
+    </de>
+  </dangerousEvents>
+  <quests>
+    <qst>
+      <name>Return to the town</name>
+      <choices>
+        <rttt>
+          <name>End the hike</name>
+        </rttt>
+      </choices>
+    </qst>
+  </quests>
+</tile>
