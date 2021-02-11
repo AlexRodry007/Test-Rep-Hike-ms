@@ -333,10 +333,10 @@
   </dangerousEvents>
   <quests>
     <qst>
-      <name>Forest Quest</name>
+      <name>Plain Quest</name>
       <choices>
         <sc>
-          <name>Forest Quest</name>
+          <name>Plain Quest</name>
           <description>Thanks</description>
         </sc>
       </choices>
