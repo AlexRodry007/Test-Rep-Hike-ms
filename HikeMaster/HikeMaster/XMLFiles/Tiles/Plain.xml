@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tile>
+  <name>Plain</name>
+  <description>Pretty smooth plain</description>
+  <safety>90</safety>
+  <id>2</id>
+  <length>30</length>
+  <safeEvents>
+    <se>
+      <name>A few suspicious roads... they can be used as shortcuts</name>
+      <choices>
+        <tcct>
+          <name>Try to find a decent path</name>
+          <goodDescription>Pathfinder found a good route that speeded up the hike</goodDescription>
+          <badDescription>Hike lost a track and spent some time trying to get back</badDescription>
+          <difficulty>6</difficulty>
+          <attribute>5</attribute>
+          <talent>4</talent>
+          <ncpc>10<rxcc>5</rxcc></ncpc>
+          <ncpc>-10<necc>5<scc>5</scc></necc></ncpc>
+        </tcct>
+        <tcct>
+          <name>Try to remember wich road is the best</name>
+          <goodDescription>Logistic knowledge allowed to find the shortcut</goodDescription>
+          <badDescription>Noone knows what path leads where, so everyone keeps walking as intended</badDescription>
+          <difficulty>10</difficulty>
+          <attribute>4</attribute>
+          <talent>4</talent>
+          <ncpc>10<rxcc>5</rxcc></ncpc>
+          <necc>2<scc>5</scc></necc>
+        </tcct>
+        <tcct>
+          <name>Ask strangers for a path</name>
+          <goodDescription>Someone told the short route</goodDescription>
+          <badDescription>Noone told what path leads where, so group keeps walking as intended</badDescription>
+          <difficulty>4</difficulty>
+          <attribute>6</attribute>
+          <talent>4</talent>
+          <ncpc>10<rxcc>5</rxcc></ncpc>
+          <scc>7</scc>
+        </tcct>
+        <sc>
+          <name>Just walk the trusted way</name>
+          <description>Shortcuts are overrated anyway</description>
+        </sc>
+      </choices>
+    </se>
+    <se>
+      <name>Smoke on the horizon... I wonder what causes it...</name>
+      <choices>
+        <ne>
+          <name>Come closer</name>
+          <se>
+            <name>Smoke isn't huge, it's like form a campfire or somthing similar</name>
+            <choices>
+              <ne>
+                <name>Come even closer</name>
+                <se>
+                  <name>A small camp of some adventurers</name>
+                  <choices>
+                    <tscct>
+                      <name>Ask to join them</name>
+                      <goodDescription>They gladly aceepted</goodDescription>
+                       <badDescription>They refused politely, so  group left</badDescription>
+                       <difficulty>2</difficulty>
+                       <attribute>6</attribute>
+                       <talent>0</talent>
+                       <nrtcc>50<nrxcc>20<netcc>50<hlcc>20</hlcc></netcc></nrxcc></nrtcc>
+                       <necc>3<scc>5</scc></necc>                      
+                    </tscct>
+                    <tscct>
+                      <name>Intimidate them to cooperate</name>
+                      <goodDescription>They gave all they have to the group</goodDescription>
+                       <badDescription>They refused, so  group left</badDescription>
+                       <difficulty>7</difficulty>
+                       <attribute>6</attribute>
+                       <talent>1</talent>
+                       <nrtcc>25<nrxcc>5<netcc>75<hlcc>35</hlcc></netcc></nrxcc></nrtcc>
+                       <necc>5<scc>7</scc></necc>
+                    </tscct>
+                      <sc>
+                        <name>Leave them</name>
+                        <description>They wished luck to your group</description>
+                      </sc>
+                  </choices>
+                </se>
+              </ne>
+              <nect>
+                <name>Sneak there and look closely</name>
+                <difficulty>5</difficulty>
+                <attribute>1</attribute>
+                <talent>2</talent>
+                <se>
+                  <name>Scout sees a small camp of adventurers, they don't notice the group</name>
+                  <choices>
+                    <tscct>
+                      <name>Walk to them and ask to join</name>
+                      <goodDescription>They gladly aceepted</goodDescription>
+                       <badDescription>They refused politely, so  group left</badDescription>
+                       <difficulty>2</difficulty>
+                       <attribute>6</attribute>
+                       <talent>0</talent>
+                       <nrtcc>50<nrxcc>20<netcc>50<hlcc>20</hlcc></netcc></nrxcc></nrtcc>
+                       <necc>3<scc>5</scc></necc>
+                    </tscct>
+                    <tscct>
+                      <name>Intimidate them to cooperate</name>
+                      <goodDescription>They gave all they have to the group</goodDescription>
+                       <badDescription>They refused, so  group left</badDescription>
+                       <difficulty>7</difficulty>
+                       <attribute>6</attribute>
+                       <talent>1</talent>
+                       <nrtcc>25<nrxcc>5<netcc>75<hlcc>35</hlcc></netcc></nrxcc></nrtcc>
+                       <necc>5<scc>7</scc></necc>
+                    </tscct>
+                      <sc>
+                        <name>Leave them without geting noticed</name>
+                        <description>They don't even know the group was there</description>
+                      </sc>
+                  </choices>
+                </se>
+                <se>
+                    <name>Group's scout was noticed by some adventurers in the camp, they look at the group suspiciously</name>
+                    <choices>
+                      <tscct>
+                        <name>Intimidate them to cooperate</name>
+                        <goodDescription>They gave all they have to the group</goodDescription>
+                         <badDescription>They refused, so  group left</badDescription>
+                         <difficulty>7</difficulty>
+                         <attribute>6</attribute>
+                         <talent>1</talent>
+                       <nrtcc>25<nrxcc>5<netcc>75<hlcc>35</hlcc></netcc></nrxcc></nrtcc>
+                         <necc>10<scc>10</scc></necc>
+                      </tscct>
+                        <sc>
+                          <name>Leave them alone</name>
+                          <description>They watch the group leave silently</description>
+                        </sc>
+                    </choices>
+                  </se>
+              </nect>
+                <sc>
+                  <name>Just leave it there and continue the hike</name>
+                  <description>At least nothing bad happened... to your hike</description>
+                </sc>
+            </choices>
+          </se>
+        </ne>
+        <sc>
+          <name>Just leave it there and continue the hike</name>
+          <description>At least nothing bad happened... to your hike</description>
+        </sc>
+      </choices>
+    </se>
+    <se>
+      <name>Smoke on the horizon... I wonder what causes it...</name>
+      <choices>
+        <ne>
+          <name>Come closer</name>
+          <se>
+            <name>Smoke isn't huge, it's like form a campfire or somthing similar</name>
+            <choices>
+              <ne>
+                <name>Come even closer</name>
+                <se>
+                  <name>An abandoned camp, a few tents here, a broken chair there...</name>
+                  <choices>
+                    <tcact>
+                      <name>Search for supplies</name>
+                      <goodDescription>found some stuff</goodDescription>
+                       <badDescription>didn't found anything</badDescription>
+                       <difficulty>7</difficulty>
+                       <attribute>5</attribute>
+                       <talent>3</talent>
+                       <nrxcc>5<netcc>10<hlcc>5</hlcc></netcc></nrxcc>
+                       <necc>3<scc>1</scc></necc>
+                    </tcact>
+                    <tscct>
+                      <name>Set a camp here and relax</name>
+                      <goodDescription>Camp setted successfully</goodDescription>
+                       <badDescription>Camp setted unsuccessfully</badDescription>
+                       <difficulty>3</difficulty>
+                       <attribute>7</attribute>
+                       <talent>3</talent>
+                       <nrtcc>25<rxcc>5</rxcc></nrtcc>
+                       <necc>5<scc>7</scc></necc>
+                    </tscct>
+                    <ne>
+                <name>Wait for an ambush</name>
+                <se>
+                  <name>There is no ambush, but everyone is still upset a little</name>
+                  <choices>
+                    <tcact>
+                      <name>Search for supplies</name>
+                      <goodDescription>found some stuff</goodDescription>
+                       <badDescription>didn't found anything</badDescription>
+                       <difficulty>7</difficulty>
+                       <attribute>5</attribute>
+                       <talent>3</talent>
+                       <netcc>10<hlcc>5</hlcc></netcc>
+                       <necc>10<scc>6</scc></necc>
+                    </tcact>
+                    <tscct>
+                      <name>Set a camp here and try to relax</name>
+                      <goodDescription>Camp setted successfully</goodDescription>
+                       <badDescription>Camp setted unsuccessfully</badDescription>
+                       <difficulty>5</difficulty>
+                       <attribute>7</attribute>
+                       <talent>3</talent>
+                       <rtcc>15</rtcc>
+                       <necc>15<scc>12</scc></necc>
+                    </tscct>
+                      <sc>
+                        <name>Leave this place</name>
+                        <description>Group leaved</description>
+                      </sc>
+                  </choices>
+                </se>
+              </ne>
+                      <sc>
+                        <name>Leave this place</name>
+                        <description>Group leaved</description>
+                      </sc>
+                  </choices>
+                </se>
+              </ne>
+              <ne>
+            <name>Sneek there and look closely</name>
+                <se>
+                  <name>An abandoned camp, a few tents here, a broken chair there...</name>
+                  <choices>
+                    <tcact>
+                      <name>Search for supplies</name>
+                      <goodDescription>found some stuff</goodDescription>
+                       <badDescription>didn't found anything</badDescription>
+                       <difficulty>7</difficulty>
+                       <attribute>5</attribute>
+                       <talent>3</talent>
+                       <nrxcc>5<netcc>10<hlcc>5</hlcc></netcc></nrxcc>
+                       <necc>3<scc>1</scc></necc>
+                    </tcact>
+                    <tscct>
+                      <name>Set a camp here and relax</name>
+                      <goodDescription>Camp setted successfully</goodDescription>
+                       <badDescription>Camp setted unsuccessfully</badDescription>
+                       <difficulty>3</difficulty>
+                       <attribute>7</attribute>
+                       <talent>3</talent>
+                       <nrtcc>25<rxcc>5</rxcc></nrtcc>
+                       <necc>5<scc>7</scc></necc>
+                    </tscct>
+                    <ne>
+                <name>Wait for an ambush</name>
+                <se>
+                  <name>There is no ambush, but everyone is still upset a little</name>
+                  <choices>
+                    <tcact>
+                      <name>Search for supplies</name>
+                      <goodDescription>found some stuff</goodDescription>
+                       <badDescription>didn't found anything</badDescription>
+                       <difficulty>7</difficulty>
+                       <attribute>5</attribute>
+                       <talent>3</talent>
+                       <netcc>10<hlcc>5</hlcc></netcc>
+                       <necc>10<scc>6</scc></necc>
+                    </tcact>
+                    <tscct>
+                      <name>Set a camp here and try to relax</name>
+                      <goodDescription>Camp setted successfully</goodDescription>
+                       <badDescription>Camp setted unsuccessfully</badDescription>
+                       <difficulty>5</difficulty>
+                       <attribute>7</attribute>
+                       <talent>3</talent>
+                       <rtcc>15</rtcc>
+                       <necc>15<scc>12</scc></necc>
+                    </tscct>
+                      <sc>
+                        <name>Leave this place</name>
+                        <description>Group leaved</description>
+                      </sc>
+                  </choices>
+                </se>
+              </ne>
+                      <sc>
+                        <name>Leave this place</name>
+                        <description>Group leaved</description>
+                      </sc>
+                  </choices>
+                </se>   
+                </ne>
+                <sc>
+                  <name>Just leave it there and continue the hike</name>
+                  <description>At least nothing bad happened... to your hike</description>
+                </sc>
+            </choices>
+          </se>
+        </ne>
+        <sc>
+          <name>Just leave it there and continue the hike</name>
+          <description>At least nothing bad happened... to your hike</description>
+        </sc>
+      </choices>
+    </se>
+    <se>
+      <name>Group spots a small lake</name>
+      <choices>
+        <tcact>
+          <name>Go fishing</name>
+          <goodDescription>catched some fish</goodDescription>
+          <badDescription>didn't catch anything, at least spent time well</badDescription>
+          <difficulty>7</difficulty>
+          <attribute>5</attribute>
+          <talent>0</talent>
+          <nrxcc>10<netcc>15<nrtcc>10</nrtcc><hlcc>5</hlcc></netcc></nrxcc>
+        </tcact>
+      </choices>
+    </se>
+  </safeEvents>
+  <dangerousEvents>
+    <de>
+      <name>Huge and strong bear</name>
+      <choices>
+        <sbc>
+          <description>Battle him</description>
+          <id>0</id>
+        </sbc>
+        <sc>
+          <name>Run away</name>
+          <description>Raned Away</description>
+        </sc>
+      </choices>
+    </de>
+  </dangerousEvents>
+  <quests>
+    <qst>
+      <name>Forest Quest</name>
+      <choices>
+        <sc>
+          <name>Forest Quest</name>
+          <description>Thanks</description>
+        </sc>
+      </choices>
+    </qst>
+  </quests>
+</tile>

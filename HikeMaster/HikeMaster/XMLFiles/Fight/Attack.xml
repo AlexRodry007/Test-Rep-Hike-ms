@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AttackList>
+	<Attack>
+		<name>Simple Attack</name>
+	    <result>5</result>
+		<pureMultiplierDamage>1,0</pureMultiplierDamage>
+		<talentMultiplierDamage>1,1</talentMultiplierDamage>
+	</Attack>
+	<Skip>
+		<result>5</result>
+	</Skip>
+	<Attack>
+		<name>Strong Attack</name>
+		<result>10</result>
+		<pureMultiplierDamage>1,5</pureMultiplierDamage>
+		<talentMultiplierDamage>1,0</talentMultiplierDamage>
+	</Attack>
+</AttackList>
+
