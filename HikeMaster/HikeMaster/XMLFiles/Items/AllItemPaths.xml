@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<itemPaths>
+  <mushroom>..\..\..\XMLFiles\Items\Mushroom.xml</mushroom>
+  <fists>..\..\..\XMLFiles\Items\Fists.xml</fists>
+</itemPaths>

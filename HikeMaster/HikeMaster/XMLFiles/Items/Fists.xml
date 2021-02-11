@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<item>
+  <name>Fists</name>
+  <description>Great for punching</description>
+  <id>1</id>
+  <mass>0</mass>
+  <volume>0</volume>
+  <uses>
+    <use>
+      <name>Beat yourself</name>
+      <Consumable>0</Consumable>
+      <dcc>1</dcc>
+    </use>
+  </uses>
+  <passiveUses>
+    <passiveUse>
+      <name>Weapone</name>
+      <level>1</level>
+    </passiveUse>
+    <passiveUse>
+      <name>WeaponeDamage</name>
+      <level>2</level>
+    </passiveUse>
+  </passiveUses>
+</item>

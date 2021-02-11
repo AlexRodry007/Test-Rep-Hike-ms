@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tilePaths>
+  <town>..\..\..\XMLFiles\Tiles\Town.xml</town>
+  <forest>..\..\..\XMLFiles\Tiles\Forest.xml</forest>
+  <plain>..\..\..\XMLFiles\Tiles\Plain.xml</plain>
+</tilePaths>

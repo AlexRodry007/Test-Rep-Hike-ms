@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tile>
+  <name>Forest</name>
+  <description>Nice and peacefull forest</description>
+  <safety>85</safety>
+  <id>1</id>
+  <length>40</length>
+  <safeEvents>
+    <se>
+      <name>There are mushrooms</name>
+      <choices>
+        <ist>
+          <name>Boil them</name>
+          <goodDescription>Mushrooms aren't poisonous now</goodDescription>
+          <badDescription>The chef cooked them terrible</badDescription>
+          <difficulty>4</difficulty>
+          <attribute>3</attribute>
+          <talent>2</talent>
+          <itemId>0</itemId>
+        </ist>
+        <tcct>
+          <name>Eat them raw</name>
+          <goodDescription>Not very tasty, but a little bit nutritious</goodDescription>
+          <badDescription>Character have a issues with stomach</badDescription>
+          <difficulty>7</difficulty>
+          <attribute>2</attribute>
+          <talent>3</talent>
+            <netcc>3<dcc>3</dcc></netcc>
+            <ndcc>9<ecc>3</ecc></ndcc>
+        </tcct>
+        <sc>
+          <name>Throw them away</name>
+          <description>Mushrooms were left alone</description>
+        </sc>
+      </choices>
+    </se>
+  </safeEvents>
+  <dangerousEvents>
+    <de>
+      <name>Huge and strong bear</name>
+      <choices>
+        <sbc>
+          <description>Battle him</description>
+          <id>0</id>
+        </sbc>
+        <sc>
+          <name>Run away</name>
+          <description>Raned Away</description>
+        </sc>
+      </choices>
+    </de>
+  </dangerousEvents>
+  <quests>
+    <qst>
+      <name>Forest Quest</name>
+      <choices>
+        <sc>
+          <name>Forest Quest</name>
+          <description>Thanks</description>
+        </sc>
+      </choices>
+    </qst>
+  </quests>
+</tile>

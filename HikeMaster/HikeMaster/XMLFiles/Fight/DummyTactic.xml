@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TacticCharacter>
+	<enemy>
+		<CharacterSide>2</CharacterSide>
+		<CharacterId>1</CharacterId>
+		<ActionListId>0</ActionListId>
+	</enemy>	
+</TacticCharacter>
