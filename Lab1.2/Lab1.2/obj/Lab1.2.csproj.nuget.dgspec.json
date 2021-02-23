@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\Lab1.2\\Lab1.2\\Lab1.2.csproj": {}
+    "D:\\source\\TestRepos1\\Lab1.2\\Lab1.2\\Lab1.2.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\Lab1.2\\Lab1.2\\Lab1.2.csproj": {
+    "D:\\source\\TestRepos1\\Lab1.2\\Lab1.2\\Lab1.2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\Lab1.2\\Lab1.2\\Lab1.2.csproj",
+        "projectUniqueName": "D:\\source\\TestRepos1\\Lab1.2\\Lab1.2\\Lab1.2.csproj",
         "projectName": "Lab1.2",
-        "projectPath": "D:\\source\\repos\\Lab1.2\\Lab1.2\\Lab1.2.csproj",
+        "projectPath": "D:\\source\\TestRepos1\\Lab1.2\\Lab1.2\\Lab1.2.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\Lab1.2\\Lab1.2\\obj\\",
+        "outputPath": "D:\\source\\TestRepos1\\Lab1.2\\Lab1.2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[5.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -80,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -311,7 +311,8 @@
           <difficulty>7</difficulty>
           <attribute>5</attribute>
           <talent>0</talent>
-          <nrxcc>10<netcc>15<nrtcc>10</nrtcc><hlcc>5</hlcc></netcc></nrxcc>
+          <nrxcc>10<netcc>15<nrtcc>10<hlcc>5</hlcc></nrtcc></netcc></nrxcc>
+          <rxcc>1</rxcc>
         </tcact>
       </choices>
     </se>

@@ -49,6 +49,10 @@ namespace HikeMaster
         {
             return value + advantage - disadvantage;
         }
+        public void Show(int attr, int tal)
+        {
+            Console.WriteLine("     {0}: {1}", ICharacter.talentnames[attr][tal], GetValue());
+        }
     }
     public class Attribute
     {
@@ -79,6 +83,16 @@ namespace HikeMaster
         {
             return talents;
         }
+        public void ShowAll(int attr)
+        {
+            Console.WriteLine(" {0}: {1}", ICharacter.attrnames[attr], GetValue());
+            int i = 0;
+            foreach (Talent talent in GetTalents())
+            {
+                talent.Show(attr, i);
+                i++;
+            }
+        }
     }
     public class Character
     {
@@ -96,7 +110,7 @@ namespace HikeMaster
         int status = 5;     //5 - здоров, 4 - легкораненый, 3 - тяжелораненый, 2 - критически раненый (без сознания), 1 - присмерти (без сознания), 0 - мёртв
         static int maxId = 0;
         List<Attribute> attributes = new List<Attribute> { };
-        Item weapone;
+        Item weapone = ReadLoadItem.ReadItemById(1);
         public Character(string n, int s, int[] attrs, int[][] tals, int h, int e, int hu, int sa)
         {
             Item weapone = ReadLoadItem.ReadItemById(1);
@@ -359,6 +373,28 @@ namespace HikeMaster
         public static void SetMaxId(int characterMaxId)
         {
             maxId = characterMaxId;
+        }
+        public void ShowAll()
+        {
+            Console.WriteLine("Name: {0}", name);
+            Console.WriteLine("Side: {0}", side);
+            Console.WriteLine("Id: {0}", id);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Health: {0}/{1}", health, maxHealth);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("Sanity: {0}/{1}", sanity, maxSanity);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Energy: {0}/{1}", energy, maxEnergy);
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("Satiety: {0}/{1}", satiety, maxSatiety);
+            Console.ResetColor();
+            Console.WriteLine("Character health status: {0}", status);
+            int j = 0;
+            foreach(Attribute attribute in GetAttributes())
+            {
+                attribute.ShowAll(j);
+                j++;
+            }
         }
     }
 }

@@ -11,3 +11,16 @@ D:\source\repos\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.dll
 D:\source\repos\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.pdb
 D:\source\repos\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.csproj.CoreCompileInputs.cache
 D:\source\repos\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.genruntimeconfig.cache
+D:\source\TestRepos1\HikeMaster\HikeMaster\bin\Debug\netcoreapp3.1\HikeMaster.exe
+D:\source\TestRepos1\HikeMaster\HikeMaster\bin\Debug\netcoreapp3.1\HikeMaster.deps.json
+D:\source\TestRepos1\HikeMaster\HikeMaster\bin\Debug\netcoreapp3.1\HikeMaster.runtimeconfig.json
+D:\source\TestRepos1\HikeMaster\HikeMaster\bin\Debug\netcoreapp3.1\HikeMaster.runtimeconfig.dev.json
+D:\source\TestRepos1\HikeMaster\HikeMaster\bin\Debug\netcoreapp3.1\HikeMaster.dll
+D:\source\TestRepos1\HikeMaster\HikeMaster\bin\Debug\netcoreapp3.1\HikeMaster.pdb
+D:\source\TestRepos1\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.csprojAssemblyReference.cache
+D:\source\TestRepos1\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.AssemblyInfoInputs.cache
+D:\source\TestRepos1\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.AssemblyInfo.cs
+D:\source\TestRepos1\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.csproj.CoreCompileInputs.cache
+D:\source\TestRepos1\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.dll
+D:\source\TestRepos1\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.pdb
+D:\source\TestRepos1\HikeMaster\HikeMaster\obj\Debug\netcoreapp3.1\HikeMaster.genruntimeconfig.cache

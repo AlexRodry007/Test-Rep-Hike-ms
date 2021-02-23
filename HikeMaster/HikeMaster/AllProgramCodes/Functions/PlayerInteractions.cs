@@ -345,6 +345,32 @@ namespace HikeMaster
             Fight fight = new Fight(characterTactics, enemyCharactersTactics);
             Console.WriteLine(fight.Ffight());
         }
+       public static void ChooseCharacterStatShow(List<Character> characters)
+        {
+
+            Character subject = null;
+            int i = 0;
+            Console.WriteLine("Choose character:");
+            foreach (Character s in characters)
+            {
+                Console.WriteLine("{0} {1}", i, s.GetName());
+                i++;
+            }
+            subject = characters[PlayerInput.Input(0, characters.Count())];
+            subject.ShowAll();
+        }
+        public static Hike ChooseHikesOrCreateNew()
+        {
+            Hike hike = null;
+            int i = 0;
+            Console.WriteLine("Choose Hike:");
+
+            return hike;
+        }
+    }
+    class GameMenu
+    {
+
     }
 
 }
