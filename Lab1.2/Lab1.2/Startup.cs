@@ -9,6 +9,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using Lab1._2.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace Lab1._2
 {
     public class Startup
@@ -23,6 +26,8 @@ namespace Lab1._2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string connection = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<Lab1Context>(options => options.UseSqlServer(connection));
             services.AddControllersWithViews();
         }
 

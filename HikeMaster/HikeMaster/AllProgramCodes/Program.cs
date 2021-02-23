@@ -35,11 +35,14 @@ namespace HikeMaster
             Map.GetMap();
             Character Alex = ReadLoadCharacter.ReadCharacterBySideAndId(1, 0);
             Character Berta = ReadLoadCharacter.ReadCharacterBySideAndId(1, 1);
+            Alex.ShowAll();
+            Berta.ShowAll();
             /*Character Clark = new Character("Clark", 1, att, tal, 100, 100, 100, 100);
             ReadLoadCharacter.AddNewCharacter(Clark);*/
             Character Dummy = ReadLoadCharacter.ReadCharacterBySideAndId(2, 2);
             Town.AddFreeCharacter(Alex);
             Town.AddFreeCharacter(Berta);
+
 
             Hike hike;
             do
