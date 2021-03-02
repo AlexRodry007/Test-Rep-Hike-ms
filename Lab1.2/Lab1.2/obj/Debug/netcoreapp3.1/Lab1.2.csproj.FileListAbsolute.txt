@@ -198,11 +198,6 @@ D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnal
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -215,8 +210,6 @@ D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-arm\nati
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\source\TestRepos1\Lab1.2\Lab1.2\obj\Debug\netcoreapp3.1\Lab1.2.csprojAssemblyReference.cache
 D:\source\TestRepos1\Lab1.2\Lab1.2\obj\Debug\netcoreapp3.1\Lab1.2.AssemblyInfoInputs.cache
@@ -245,3 +238,10 @@ D:\source\TestRepos1\Lab1.2\Lab1.2\obj\Debug\netcoreapp3.1\Lab1.2.csproj.CopyCom
 D:\source\TestRepos1\Lab1.2\Lab1.2\obj\Debug\netcoreapp3.1\Lab1.2.dll
 D:\source\TestRepos1\Lab1.2\Lab1.2\obj\Debug\netcoreapp3.1\Lab1.2.pdb
 D:\source\TestRepos1\Lab1.2\Lab1.2\obj\Debug\netcoreapp3.1\Lab1.2.genruntimeconfig.cache
+D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\source\TestRepos1\Lab1.2\Lab1.2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
